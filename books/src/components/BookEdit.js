@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import React from 'react'
+import { useState } from 'react';
 import useBooksContext from '../hooks/use-books-context';
 
 function BookEdit({book, onSubmit}) {
@@ -14,8 +13,8 @@ function BookEdit({book, onSubmit}) {
   const handleSubmit = (event) => {
     event.preventDefault();
     onSubmit();
-    editBookById(book.id, title)
-  }
+    editBookById(book.id, title);
+  };
 
   return (
     <div>
@@ -25,7 +24,7 @@ function BookEdit({book, onSubmit}) {
             <button className='button is-primary'>Save</button>
         </form>
     </div>
-  )
+  );
 }
 
-export default BookEdit
+export default BookEdit;

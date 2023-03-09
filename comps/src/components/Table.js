@@ -1,9 +1,13 @@
 import React from 'react'
+import { Fragment } from 'react';
 
 function Table({data, config, keyFn}) {
-    const renderedColumns = config.map((header) => {
+    const renderedColumns = config.map((column) => {
+        if(column.header){
+           return <Fragment key={column.label}>{column.header()}</Fragment>;
+        }
         return(
-            <th key={header.label} >{header.label}</th>
+            <th key={column.label}>{column.label}</th>
         )
     })
 

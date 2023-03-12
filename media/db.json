@@ -1,5 +1,22 @@
 {
-    "users": [{"id": 1, "name" : "Sebastian"}],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Sebastian"
+    },
+    {
+      "name": "Howard Kessler",
+      "id": 2
+    },
+    {
+      "name": "Hubert Mayer",
+      "id": 3
+    },
+    {
+      "name": "Sidney Cummerata",
+      "id": 4
+    }
+  ],
+  "albums": [],
+  "photos": []
 }

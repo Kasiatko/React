@@ -1,11 +1,7 @@
-import { useFetchAlbumsQuery,useAddAlbumMutation, useRemoveAlbumMutation } from "../store";
+import { useFetchAlbumsQuery,useAddAlbumMutation } from "../store";
 import Skeleton from './Skeleton';
-import ExpandablePanel from "./ExpandablePanel";
 import Button from "./Button";
 import AlbumListItems from './AlbumListItems';
-
-
-
 
 
 function AlbumsList({ user }) {
@@ -26,7 +22,6 @@ function AlbumsList({ user }) {
       return <AlbumListItems key={album.id} album={album}/>
     })
   }
-
 
 
     return (

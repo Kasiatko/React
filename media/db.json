@@ -27,9 +27,24 @@
   ],
   "albums": [
     {
-      "id" : 10,
-      "title" :"Hiking Trip",
-      "userId": 1
+      "title": "Modern Plastic Bike",
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "title": "Small Wooden Gloves",
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "title": "Small Steel Bacon",
+      "userId": 1,
+      "id": 17
+    },
+    {
+      "title": "Handmade Bronze Pants",
+      "userId": 1,
+      "id": 18
     }
   ],
   "photos": []
